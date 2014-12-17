@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'blockregular';
+    src: url('../fonts/block-regular-webfont.eot');
+    src: url('../fonts/block-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/block-regular-webfont.woff') format('woff'),
+         url('. ./fonts/block-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'thai_sans_literegular';
+    src: url('../fonts/thaisanslite_r1-webfont.eot');
+    src: url('../fonts/thaisanslite_r1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/thaisanslite_r1-webfont.woff') format('woff'),
+         url('../fonts/thaisanslite_r1-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: strong;
+}
+@font-face {
+    font-family: 'rsu-bold';
+    src: url('../fonts/rsu_bold-webfont.eot');
+    src: url('../fonts/rsu_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rsu_bold-webfont.woff') format('woff'),
+         url('../fonts/rsu_bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'rsu-regular';
+    src: url('../fonts/rsu_regular-webfont.eot');
+    src: url('../fonts/rsu_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rsu_regular-webfont.woff') format('woff'),
+         url('../fonts/rsu_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.body{
+	margin: 0 auto; 
+	padding: 0 auto;
+}
+header{
+	width:100%;
+	background: #2d3039;
+	color: #fff;
+}
+.title-header{
+ font-family: 'rsu-bold';
+ font-size:2.5em;
+text-align: center;
+padding:10px;
+ }
+.title-total, .title-tender, .total-value, .tender-value{
+	font-family: Tahoma;
+	display: inline-block;
+	/*border:1px solid #fff;	*/
+}
+.title-total, .title-tender{
+    font-family: 'rsu-bold';
+	padding-left: 10px;
+	font-size: 1.3em;
+	padding-top: 16px;
+	}
+.total-value{
+	text-align: right;
+	padding-right: 14px;
+}
+.tender-value{
+	text-align: right;
+	padding-right: 10px;
+}
+.total-value{
+	font-size: 3.5em;
+}
+.pTender{
+	font-size: 2em;
+	background: transparent;
+	color:#fff;
+	border:0px;
+	text-align: right;
+}
+
+.padbank li:hover{
+opacity:0.5;
+}
+.padnum{
+width:90%;
+}
+.padnum li{
+	height: 2.8em;
+}
+.padnum li a{
+display:block;
+text-align: center;
+border:1px solid #ccc;
+margin:1px;
+font-size:1.4em;
+color: #909090;
+}
+.padnum li a:hover{
+	background: #444444;
+	color: #fff;
+}
+.bt_change{
+	margin: 10px;
+	display: block;
+	background: #1eeaf7;
+	width: 300px;
+	height: 40px;
+	text-decoration:none;
+	color: #000;
+	font-size: 1.6em;
+	font-family: Arial;
+	text-align: center;
+	padding: 5px;
+	padding-top: 10px;
+}
+.bt_change:hover{
+	background: #1d5662;
+	color: #fff;
+}
+.btTotal{
+	font-family: 'rsu-bold';
+	font-size: 1em;
+}
+.complete-text{
+	font-family: 'rsu-bold';
+	font-size: 1.8em;
+	padding: 5px 10px 40px 10px;
+	text-align: center;
+	background: #f6f6f6;
+	height: 75%;
+	color: #535353;
+}
+#complete_box{
+  visibility: hidden;
+  opacity: 0;
+}
+#complete_box.active{
+ visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s linear;
+	width: 400px;
+	height: 500px;
+	position:absolute;
+	left:0px;
+	top:0px;	
+	opacity: 1;
+    display: block;
+}
+

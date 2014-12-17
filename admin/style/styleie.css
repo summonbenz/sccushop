@@ -1,0 +1,12 @@
+.table-striped > tbody > tr:nth-child(2n+1) > td,
+.table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: transparent;
+}
+
+.has-switch {
+    border: 0 !important;
+}
+
+#slist li a {
+    display: inline-block;
+}
