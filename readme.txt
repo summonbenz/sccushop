@@ -1,8 +1,10 @@
-=========== CoinCoin* =============
+# CoinCoin*
+
 CoinCoin* คือ เว็บ application สำหรับขายของหน้าร้าน (Point of Sell) เพื่อใช้ในชมรมการศึกษาเท่านั้น
 
-วิธีการติดตั้ง (How to install)
+## วิธีการติดตั้ง (How to install)
 
+``` bash
 1. ให้ทำการตั้งค่าฐานข้อมูลที่โฟลเดอร์ "inc/setting.inc.php"
 
 $config['host'] = "localhost"; 		//ชื่อ server
@@ -19,6 +21,4 @@ username : admin
 password : admin
 
 4. สามารถแก้ไขตำแหน่ง footer ได้จากไฟล์ "inc/footer.inc.php"
-
-
-=========================================
+```
