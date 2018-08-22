@@ -1,6 +1,6 @@
 # CoinCoin*
 
-CoinCoin* คือ เว็บ application สำหรับขายของหน้าร้าน (Point of Sell) เพื่อใช้ในชมรมการศึกษาเท่านั้น
+> CoinCoin* คือ เว็บ application สำหรับขายของหน้าร้าน (Point of Sell) เพื่อใช้ในชมรมการศึกษาเท่านั้น
 
 ## วิธีการติดตั้ง (How to install)
 
