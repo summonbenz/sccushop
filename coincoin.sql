@@ -188,12 +188,9 @@ CREATE TABLE IF NOT EXISTS `member_staff` (
 --
 
 INSERT INTO `member_staff` (`memberid`, `username`, `password`, `firstname`, `lastname`, `nickname`, `phone`, `email`, `position`) VALUES
-(1, 'nppi3enz', '326207', 'นิพิฐพนธ์', 'จันทร์ธาดา', 'เบนซ์', '0888888888', 'cartoonst@gmail.com', 'M'),
-(2, 'yzdonutc', '28248', 'นพรัตน์', 'ทรัพย์อร่ามดี', 'โดนัท', '088888888888', 'test@test.com', 'A'),
-(3, 'cashier01', 'cashier01', 'Firstname', 'Lastname', 'Nick', '0888888888', 'test@test.com', 'C'),
-(4, 'test', 'test', 'test', 'TT', 'T', '0888888888', 'test@test.com', 'A'),
-(5, 'wanatsanan', '865185', 'วนัสนันท์', 'มณีแสง', 'อุ้ย', '0899999999', 'auy_wanatsanan@hotmail.com', 'M'),
-(6, 'admin', 'admin', 'admin', 'testsystem', 'admin', '0899999999', 'test@admin.com', 'A');
+(1, 'cashier01', 'cashier01', 'Firstname', 'Lastname', 'Nick', '0888888888', 'test@test.com', 'C'),
+(2, 'test', 'test', 'test', 'TT', 'T', '0888888888', 'test@test.com', 'A'),
+(3, 'admin', 'admin', 'admin', 'testsystem', 'admin', '0899999999', 'test@admin.com', 'A');
 
 -- --------------------------------------------------------
 
